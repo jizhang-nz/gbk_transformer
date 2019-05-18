@@ -7,7 +7,7 @@ GBK_converter.py is a python script to transfrom a Genbank file into a FASTA fil
 
 ## Motivation
 
-To transform a GenBank file (.gbk, .gb or .gbff) into a FASTA sequence file (.fna, .fas, .fasta), and all the features into a table that can be easily manipulate with programs like EXCEL.
+To transform a GenBank file (.gbk, .gb or .gbff) into a FASTA sequence file (.fna, .fas, .fasta), and the annotations into a feature table that can be easily manipulate with programs like EXCEL.
 
 ## Prerequisites
 
