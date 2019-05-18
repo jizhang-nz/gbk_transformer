@@ -18,7 +18,7 @@ No extra Python module or program is needed to run the program.
 ## Usage
 If you have Python 3 installed in your system, you could put the program with your GenBank files, and run the program with command like:
 
-    python gbk_converter.py -i input.gbff
+    python gbk_transformer.py -i input.gbff
 
 The program would then output two files: 
 
