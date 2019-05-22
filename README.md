@@ -9,7 +9,7 @@ For multiple Genbank files transformation, please use `gbk_transformer.batch.py`
 
 ## Motivation
 
-To transform a GenBank file (.gbk, .gb or .gbff) into a FASTA sequence file (.fna, .fas, .fasta), and the annotations into a feature table that can be easily manipulate with programs like EXCEL.
+To transform a GenBank file (.gbk, .gb or .gbff) into a FASTA sequence file (.fna, .fas, .fasta), and the annotations into a feature table that can be easily manipulated with programs like EXCEL.
 
 ## Prerequisites
 
