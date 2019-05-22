@@ -13,7 +13,7 @@ To transform a GenBank file (.gbk, .gb or .gbff) into a FASTA sequence file (.fn
 
 ## Prerequisites
 
-This program was written in Python 3.6.7
+This program was written in Python 3.6.7.
 
 No extra Python module or program is needed to run the program.
 
@@ -27,7 +27,7 @@ The program would then output two files:
     input.fna
     input.xls
 
-If multiple GenBank files processing is needed, one could first get a list of the input files by using command:
+If multiple GenBank files processing is needed, one could first get a list of the input files by using command like:
 
     ls *.gbff>list.gbff.txt
 
