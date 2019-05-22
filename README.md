@@ -31,6 +31,6 @@ If multiple GenBank files processing is needed, one could first get a list of th
 
     ls *.gbff>list.gbff.txt
 
-And then process then with gbk_transformer.batch.py:
+And then process them with `gbk_transformer.batch.py`:
 
     python gbk_transformer.batch.py -l list.gbff.txt
