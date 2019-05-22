@@ -1,9 +1,10 @@
 # GBK transformer
-Transformation of a GenBank file into a FASTA sequence file and a feature table.
+Transformation of a GenBank file or files into a FASTA sequence file and a feature table.
 
 ## Introduction
 
-GBK_converter.py is a python script to transfrom a Genbank file into a FASTA sequence file and a feature table.
+GBK_transformer.py is a python script to transfrom a Genbank file into a FASTA sequence file and a feature table.
+For multiple Genbank files transformation, please use gbk_transformer.batch.py
 
 ## Motivation
 
@@ -24,3 +25,11 @@ The program would then output two files:
 
     input.fna
     input.xls
+
+If multiple GenBank files processing is needed, one could first get a list of the input files by using command:
+
+    ls *.gbff>list.gbff.txt
+
+And then process then with gbk_transformer.batch.py:
+
+    python gbk_transformer.batch.py -l list.gbff.txt
