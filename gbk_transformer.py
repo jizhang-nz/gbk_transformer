@@ -22,7 +22,7 @@ product_extention = ''
 protein_id = ''
 note = ''
 anno_collecting = 'off'
-printed = 'off'
+fna_collecting = 'off'
 contig = 1
 fna = ''
 
