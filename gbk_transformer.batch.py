@@ -48,7 +48,7 @@ if LIST:
 							fna_file.write(fna)
 							fna = ''
 							contig += 1
-						if re.match('ORIGIN      \n', line):
+						if re.match('ORIGIN +\n', line) or re.match('ORIGIN\n', line):
 							fna_collecting = 'on'
 						if re.match(' +[0-9]+ ', line) and fna_collecting == 'on':
 							seq = line
