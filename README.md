@@ -1,5 +1,5 @@
 # GBK transformer
-Transformation of a GenBank file or files into a FASTA sequence file and a feature table.
+Transformation of a GenBank file into a FASTA sequence file and a feature table.
 
 ## Introduction
 
